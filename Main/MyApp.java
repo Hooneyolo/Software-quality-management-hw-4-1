@@ -15,6 +15,6 @@ public class MyApp
         int age = scanner.nextInt();
         int money = scanner.nextInt();
         boolean old = scanner.nextBoolean();
-        System.out.println(br.Book_Rental(age, money, old));
+        System.out.println(br.discount_book(age, money, old));
     }
 }
