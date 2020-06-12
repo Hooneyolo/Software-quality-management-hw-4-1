@@ -2,13 +2,9 @@ package Main;
 import Calculation.Book_Rental;
 import java.util.Scanner;
 /**
- * 여기에 MyApp 클래스 설명을 작성하십시오.
+ * main 메소드문
  * 
-<<<<<<< HEAD
- * @author (2018315005 유제훈, 2018315033 태영준) 
-=======
- * @author (2018315005 유제훈, 2017190038 키타야마요시아키) 
->>>>>>> b24b01c7f2c52f94b834315190602e7cd9d41603
+ * @author (2018315005 유제훈, 2018315033 태영준, 2017190038 키타야마요시아키) 
  * @version (2020. 06. 12)
  */
 public class MyApp
