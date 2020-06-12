@@ -1,5 +1,5 @@
 package Main;
-
+import Calculation.Book_Rental;
 
 /**
  * 여기에 MyApp 클래스 설명을 작성하십시오.
@@ -7,9 +7,11 @@ package Main;
  * @author (2018315005 유제훈, ) 
  * @version (2020. 06. 12)
  */
-public class MyApp
+public class MyApp 
 {
     public static void main(String[] args){
+        Book_Rental br = new Book_Rental();
         
+        System.out.println(br.discount_book(66, 10000, false));
     }
 }
