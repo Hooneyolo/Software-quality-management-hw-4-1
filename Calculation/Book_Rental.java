@@ -1,22 +1,21 @@
 package Calculation;
 
-
 /**
- * Book_Rental ?´?˜?Š¤
+ * Book_Rental í´ë˜ìŠ¤
  * 
  * @author (2020.06.10) 
- * @version (2014671038 ê¹?ì§„ìˆ˜,2018315030 ?´ê°??˜, 2018315053 ?…Œ?¼?˜¤ì¹´ìœ ?´ì¹?)
+ * @version (2014671038 ê¹€ì§„ìˆ˜,2018315030 ì´ê°€ì˜, 2018315053 í…Œë¼ì˜¤ì¹´ìœ ì´ì¹´)
  */
 public class Book_Rental
 {
 
     /**
-     * ? Œ?ƒˆDVD?• ?¸ ?š”ê¸? ê³„ì‚° ë©”ì†Œ?“œ. 
+     * ë ŒíƒˆDVDí• ì¸ ìš”ê¸ˆ ê³„ì‚° ë©”ì†Œë“œ. 
      * 
-     * @param  age         ?‚˜?´ë¥? ?…? ¥?•˜?Š” ë§¤ê°œë³??ˆ˜
-     * @param  money       ?š”ê¸ˆì„ ?…? ¥?•˜?Š” ë§¤ê°œë³??ˆ˜
-     * @param  old_book    êµ¬ì‘(true),?‹ ?‘(false) ?¸ì§? ?Œ?‹¨?•´ì£¼ëŠ” ë§¤ê°œë³??ˆ˜
-     * @return money       ?š”ê¸ˆì„ return ?•œ?‹¤.  
+     * @param  age         ë‚˜ì´ë¥¼ ì…ë ¥í•˜ëŠ” ë§¤ê°œë³€ìˆ˜
+     * @param  money       ìš”ê¸ˆì„ ì…ë ¥í•˜ëŠ” ë§¤ê°œë³€ìˆ˜
+     * @param  old_book    êµ¬ì‘(true),ì‹ ì‘(false) ì¸ì§€ íŒë‹¨í•´ì£¼ëŠ” ë§¤ê°œë³€ìˆ˜
+     * @return money       ìš”ê¸ˆì„ return í•œë‹¤.  
      */
     public int discount_book(int age,int money,boolean old_book)
     {        
