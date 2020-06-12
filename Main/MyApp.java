@@ -19,7 +19,7 @@ public class MyApp
         System.out.print("금액을 입력하세요: ");
         int money = scanner.nextInt();
         
-        System.out.print("구작 여부를 입력하세요: ");
+        System.out.print("구작 여부를 입력하세요(true or false): ");
         boolean old = scanner.nextBoolean();
                
         System.out.println("요금은 " + br.discount_book(age, money, old) + "원 입니다.");
